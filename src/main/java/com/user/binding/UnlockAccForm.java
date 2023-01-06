@@ -1,0 +1,11 @@
+package com.user.binding;
+
+import lombok.Data;
+
+@Data 
+public class UnlockAccForm {
+	private String email;
+	private String tempPwd;
+	private String newPw;
+	private String confirmPwd;
+}

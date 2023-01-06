@@ -1,0 +1,21 @@
+Hi ${FNAME} ${LNAME}
+<br/>
+
+Welcome to Ashok It family your registration almost compleated <br/>
+ <br/>
+ 
+Please unloc your accout bleow details <br/>
+ 
+<br/> 
+
+TEMP PWD : ${TEMP_PWD} <br/>
+
+<br/>
+
+
+<a href="http://localhost:4200/unlock?email=${EMAIL}">Click Here to unlock account</a> <br/>
+
+<br/>
+
+Thansks ,<br/>
+Ashok IT <br/>
