@@ -10,6 +10,7 @@ import lombok.Data;
 @Entity
 @Table(name="STATE_MASTER")
 public class StateMaster {
+	
 	@Id
 	private Integer stateId;
 	private String stateName;

@@ -1,0 +1,37 @@
+INSERT INTO COUNTRY_MASTER('countryId','countryName') VALUES(1,'INDIA');
+
+INSERT INTO COUNTRY_MASTER('countryId','countryName') VALUES(2,'USA');
+
+
+
+
+
+INSERT INTO STATE_MASTER('stateId','stateName','countryId') VALUES(1,'UP',1);
+
+INSERT INTO STATE_MASTER('stateId','stateName','countryId') VALUES(2,'MP',1);
+
+
+
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Ambedkar Nagar',1);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Lucknow',1);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Kanpur',1);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Gorakhpur',1);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Devori',1);
+
+
+
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Bhopal',2);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Raisen',2);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Morena',2);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Bhind',2);
+
+INSERT INTO CITY_MASTER('cityId','cityName','stateId') VALUES(1,'Gwalior',2);

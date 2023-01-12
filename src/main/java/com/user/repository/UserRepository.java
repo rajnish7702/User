@@ -12,5 +12,5 @@ public interface UserRepository extends JpaRepository<User, Serializable>{
 	public User findByEmail(String email);
 	
 	// select * from user_master where email=? and pwd = ?
-	public User findByEmailAndUserpwd(String email, String pwd);
+	public User findByEmailAndUserPwd(String email, String pwd);
 }

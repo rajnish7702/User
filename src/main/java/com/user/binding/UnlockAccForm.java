@@ -6,6 +6,6 @@ import lombok.Data;
 public class UnlockAccForm {
 	private String email;
 	private String tempPwd;
-	private String newPw;
+	private String newPwd;
 	private String confirmPwd;
 }

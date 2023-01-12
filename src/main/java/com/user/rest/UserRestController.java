@@ -32,7 +32,7 @@ public class UserRestController {
 	public Map<Integer,String> loadCountry(){
 		return userService.getCountries();
 	}
-	@GetMapping("/state/{countruId}")
+	@GetMapping("/state/{countryId}")
 	public Map<Integer,String> loadState(@PathVariable Integer countryId){
 		return userService.getStates(countryId);
 	}
@@ -50,7 +50,7 @@ public class UserRestController {
 		return new ResponseEntity<>(status,HttpStatus.CREATED);
 	}
 	@PostMapping("/unlock")
-	public ResponseEntity<String> unlockAccount(UnlockAccForm unlockAccForm){
+	public ResponseEntity<String> unlockAccount(@RequestBody UnlockAccForm unlockAccForm){
 		String status = userService.unlockAccount(unlockAccForm);
 		return new ResponseEntity<> (status,HttpStatus.OK);
 	}

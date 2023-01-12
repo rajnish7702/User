@@ -10,6 +10,7 @@ import lombok.Data;
 @Entity
 @Table(name="CITY_MASTER")
 public class CityMaster {
+	
 	@Id
 	private Integer cityId;
 	private String cityName;

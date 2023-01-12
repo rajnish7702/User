@@ -26,6 +26,6 @@ public class User {
 	private Integer countryId;
 	private Integer stateId;
 	private Integer cityId;
-	private String userpwd;
+	private String userPwd;
 	private String accStatus;
 }

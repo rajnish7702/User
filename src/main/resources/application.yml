@@ -8,9 +8,16 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
-  
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rajnish
+    properties: 
+      mail: 
+        smtp:
+          auth: true
+          starttls: 
+            enable: true
 server:
   port: 9090
+     
